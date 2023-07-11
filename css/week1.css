@@ -1,0 +1,217 @@
+/* CSS reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End of CSS reset */
+
+body {
+  font-family: "Castoro", serif;
+  width: 100%;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+.font-title {
+  font-size: 128px;
+  line-height: 1.5;
+  letter-spacing: 0.12em;
+}
+.header-img {
+  display: block;
+  margin: 0 auto;
+}
+.text-align-right {
+  text-align: right;
+}
+.contentArea {
+  background-color: #efefef;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+.content {
+  width: 636px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: auto;
+}
+.experienceArea {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+.title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color: #ae0000;
+  width: 636px;
+  border-bottom: 3px solid #ae0000;
+}
+.details {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  width: 636px;
+  word-wrap: break-word;
+}
+.years {
+  display: inline-block;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #949494;
+}
+.footer {
+  background-color: #000000;
+  width: 100%;
+}
+.socialMedia {
+  width: 1296px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.socialMediaIcon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-left: 22px;
+  margin-right: 22px;
+}
